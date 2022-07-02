@@ -5,6 +5,7 @@ In this repository, I have used the https://github.com/spring-guides/gs-spring-b
 ## Build and Push Container
 
 ```sh
+git clone https://github.com/waseemtannous/gs-spring-boot.git
 cd gs-spring-boot
 docker build -t gs-spring-boot .
 docker tag gs-spring-boot waseemtannous/gs-spring-boot:latest
